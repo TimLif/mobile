@@ -57,15 +57,60 @@ a{
     line-height: 120%; 
     margin-bottom: 22px;
     max-width: 278px;
-    text-align: justify;
-    
+    text-align: justify;    
+}
+
+.mainPage__call{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    margin-bottom: 22px;
+    max-width: 278px;
 }
 
 .mainPage__tel{
+    color: #FFF;
     font-size: 53px;
     font-style: normal;
     font-weight: 400;
     line-height: 102.5%; /* 54.325px */
     letter-spacing: -0.24px;    
+    margin-bottom: 18px;
+}
+
+.mainPage__button{
+    cursor: pointer;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 102.5%; /* 18.45px */
+    letter-spacing: -0.24px;
+    padding: 8px 24px;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+/* PODMENUE */
+
+.podMenue{
+    padding: 233px 21px 28px 21px;
+
+}
+
+.podMenue__h2{
+    margin-bottom: 220px;
+}
+
+.podMenue__bottomBlock{
+    display: flex;
+    gap: 20px;
+}
+
+.podMenue__line{
+    height: 36px;
+    width: 2px;
+    background-color: #FEFEFE;
+    
 }
 
