@@ -104,11 +104,12 @@ a{
 
 .podMenue__bottomBlock{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
 }
 
 .podMenue__line{
-    height: 36px;
+    height: 41px;
     width: 2px;
     background-color: #FEFEFE;
     
